@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Architecture Landing Page</title>
+    <meta name="description" content="A structurally sound, responsive landing page built with modern HTML5 and strictly architected CSS3 grids.">
+
+    <link rel="stylesheet" href="master.css">
+</head>
+<body class="page-layout">
+
+    <header class="header">
+        <div class="header__logo">Architect.UI</div>
+
+        <nav class="nav" aria-label="Main Navigation">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <article class="here-container" id="home">
+            <div class="here-container__content">
+
+                <h1 class="here-container__headline">Engineering the Future of Semantic Web</h1>
+                <p class="here-container__description">
+                    Experience unparalleled document architecture combined with modern, modular layout systems. We build interfaces optimized for both machines and humans.
+                </p>
+                <button class="button button--primary" type="button" aria-label="Start your next web project">Call to Action</button>
+            </div>
+        </article>
+
+        <aside class="hont-cooles" aria-labelledby="features-heading" id="services">
+
+            <h2 id="features-heading" class="hont-cooles__heading">Modular Capabilities</h2>
+
+            <div class="hont-cooles__grid">
+
+                <article class="card">
+
+                    <picture class="card__picture">
+                        <source srcset="assets/images/service1.webp" type="image/webp">
+
+                        <img src="assets/images/service1.jpg" alt="A dashboard illustrating structured data analytics" width="400" height="250" class="card__image">
+                    </picture>
+                    <div class="card__content">
+
+                        <h3 class="card__title">Semantic Integrity</h3>
+                        <p class="card__description">Guarantee maximum screen-reader accessibility and SEO performance via strict, logical DOM structures.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <picture class="card__picture">
+                        <source srcset="assets/images/service2.webp" type="image/webp">
+                        <img src="assets/images/service2.jpg" alt="A blueprint wireframe depicting responsive CSS grid layouts" width="400" height="250" class="card__image">
+                    </picture>
+                    <div class="card__content">
+                        <h3 class="card__title">Grid Macro-Layouts</h3>
+                        <p class="card__description">Harness the true power of 2D CSS grid systems for flawless rendering across viewport breakpoints.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <picture class="card__picture">
+                        <source srcset="assets/images/service3.webp" type="image/webp">
+                        <img src="assets/images/service3.jpg" alt="Micro-interactions shown via flexbox component alignment" width="400" height="250" class="card__image">
+                    </picture>
+                    <div class="card__content">
+                        <h3 class="card__title">Flexbox Micro-Alignments</h3>
+                        <p class="card__description">Ensure perfect 1-Dimensional distribution and spacing for all internal UI component items.</p>
+                    </div>
+                </article>
+
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer__contact">
+
+            <h2 class="footer__headline">Get in Touch</h2>
+            <address class="footer__address">
+                <p class="footer__text">Email: <a class="footer__link" href="mailto:hello@architectui.dev" aria-label="Send an email to hello@architectui.dev">hello@architectui.dev</a></p>
+                <p class="footer__text">Phone: <a class="footer__link" href="tel:+15551234567" aria-label="Call us via phone at +1 555 123 4567">+91 XXXXX XXXXX</a></p>
+                <p class="footer__text">Made with Love by Ekansh</p>
+            </address>
+        </div>
+    </footer>
+
+</body>
+</html>
